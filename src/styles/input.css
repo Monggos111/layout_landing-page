@@ -1,0 +1,19 @@
+.input__mini {
+  grid-column: 1 / -1;
+  height: 48px;
+  width: 260px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  font-size: 16px;
+  outline: none;
+  text-align: center;
+  display: grid;
+}
+
+.input__max {
+  grid-column: 1 / -1;
+  height: 148px;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  display: grid;
+}

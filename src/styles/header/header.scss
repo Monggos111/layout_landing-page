@@ -1,0 +1,44 @@
+@import '/src/styles/variables.scss';
+
+.header {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-image: url('/img/Cover_photo.png');
+  background-size: cover;
+  background-position: 85% center;
+
+  @media (min-width: 744px) {
+    background-position: center;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px ;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 36px;
+  }
+
+  &__titel {
+    margin: 0;
+  }
+
+  &__bottom {
+    margin: 0 auto;
+    padding-bottom: 88px;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: -1.5px;
+    color: white;
+    font-weight: 700;
+    font-style: Bold;
+  }
+}

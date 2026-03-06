@@ -1,0 +1,23 @@
+.icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.icon--phone {
+  background-image: url(/img/Icon-Phone-call.png);
+}
+
+.icon--menu {
+  background-image: url(/img/Vector.png);
+}
+
+.icon--close {
+  background-image: url(/img/Icon-Close.png);
+  width: 32px;
+  height: 32px;
+}
