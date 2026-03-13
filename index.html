@@ -15,29 +15,28 @@
       src="src/scripts/main.js"
       defer
     ></script>
+    <link rel="icon" type="image/png" href="/img/icon.png" sizes="35x30">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;
-    0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:
-    ital,wght@0,100..900;1,100..900&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class="header">
-      <div class="header__top menu__top">
-        <a href="#" class="top-bar__logo">
-          <img src="img/Logo.png" alt="Bose Logo"/>
-        </a>
+    <header class="header" id="top_page">
+        <div class="header__top menu__top">
+          <a href="#" class="top-bar__logo">
+            <img src="img/Logo.png" alt="Bose Logo"/>
+          </a>
 
-        <div class="header__icons">
-          <a href="#" class="icon icon--phone"></a>
-          <a href="#menu" class="icon icon--menu"></a>
+          <div class="header__icons">
+            <a href="tel: +1 234 555-55-55" class="icon icon--phone">
+              <span class="icon__phone-number">+1 234 555-55-55</span>
+            </a>
+            <a href="#menu" class="icon icon--menu"></a>
+          </div>
         </div>
-      </div>
-
-      <div class="header__bottom">
-        <h1 class="header__titel">Take the Streets</h1>
-      </div>
+        <div class="header__bottom">
+          <h1 class="header__titel">Take the Streets</h1>
+        </div>
     </header>
 
     <aside class="page__menu menu">
@@ -52,19 +51,19 @@
         <nav class="menu__nav nav">
           <ul class="menu__list">
             <li class="menu__item">
-              <a href="#" class="menu__link">Home</a>
+              <a href="#top_page" class="menu__link">Home</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">About Us</a>
+              <a href="#about_us" class="menu__link">About Us</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Compare Bikes</a>
+              <a href="#compare-bikes" class="menu__link">Compare Bikes</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Details</a>
+              <a href="#details" class="menu__link">Details</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Contacts</a>
+              <a href="#contacts" class="menu__link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -79,8 +78,8 @@
       </div>
     </aside>
 
-    <main class="container ">
-      <section class="section grid">
+    <main class="container" id="about_us">
+      <section class="section grid" >
         <h1 class="section__titel titel_general">Move Free</h1>
         <p class="section__text">
           Shift your ride, not gears. Find the fastest way to move in the city as the bike adapts intuitively to power the speed you need.
@@ -92,7 +91,7 @@
           Compare Bikes
         </h2>
 
-        <article class="card__first card__general">
+        <article class="card__first card__general" id="compare-bikes">
           <img class="card__img"
           src="/img/bikes-1.png"
           alt=""
@@ -142,7 +141,7 @@
       </section>
 
       <div class="grid">
-        <section class="detail">
+        <section class="detail" id="details">
           <h2 class="titel_general detail__title">The Details</h2>
 
           <div class="detail__images">
@@ -182,7 +181,7 @@
         </section>
       </div>
       <div class="contact__info">
-          <section class="contact">
+          <section class="contact" id="contacts">
             <h2 class="contact__titel titel_general">Contact us</h2>
             <div class="contact__wrapper">
               <form class="contact__form">

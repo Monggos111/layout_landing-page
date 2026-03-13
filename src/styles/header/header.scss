@@ -1,4 +1,4 @@
-@import '/src/styles/variables.scss';
+@import '/src/styles/variables';
 
 .header {
   min-height: 100vh;
@@ -33,7 +33,7 @@
 
   &__bottom {
     margin: 0 auto;
-    padding-bottom: 88px;
+    padding-bottom: 130px;
     text-align: center;
     font-size: 36px;
     letter-spacing: -1.5px;
@@ -41,4 +41,31 @@
     font-weight: 700;
     font-style: Bold;
   }
+}
+
+
+
+.header__top .icon--phone .icon__phone-number {
+    position: absolute;
+    opacity: 0;
+    transform: translate(-100%);
+
+    @media (max-width: 744px) {
+    transform: translate(-80%) translateY(150%);
+}
+
+    white-space: nowrap;
+    padding: 6px 12px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Poppins,sans-serif;
+    letter-spacing: 2px;
+    line-height: 16px;
+    pointer-events: none;
+    transition: transform .3s ease,opacity .3s ease
+}
+
+.header__top .icon--phone:hover .icon__phone-number {
+    opacity: 1;
 }

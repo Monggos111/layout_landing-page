@@ -74,3 +74,8 @@
     grid-column: 9 / 13;
   }
 }
+
+.card__img:hover {
+  transform: scale(1.2);
+  transition: transform .3s ease,opacity .3s ease;
+}
