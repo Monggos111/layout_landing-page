@@ -1,21 +1,15 @@
 .btn {
-  
   justify-content: center;
   align-items: center;
-
   margin-top: 48px;
-
   background-color: #e5e5e5;
   border: none;
   border-radius: 100px;
-
   font-size: 20px;
   font-weight: 600;
   color: #222;
-
   text-align: center;
   cursor: pointer;
-
   transition: transform .3s ease, box-shadow .3s ease;
 }
 
