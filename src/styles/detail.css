@@ -84,6 +84,6 @@
 }
 
 .detail__img-general:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: transform .3s ease,opacity .3s ease;
 }
